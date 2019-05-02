@@ -12,7 +12,7 @@ int main()
 	cout << "Please indicate which package you are using" << endl;
 	cout << "1 for A, 2 for B, 3 for C" << endl;
 	cin >> a;
-	cout << "Indicate your usage in hours" << endl;
+	cout << "Indicate usage in hours" << endl;
 	cin >> Hour;
 		
 	BillA = ( Hour * 20 ) + 995; 
