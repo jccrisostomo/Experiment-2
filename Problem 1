@@ -19,22 +19,13 @@ int main()
 	BillB = ( Hour * 10) + 1495;
 	{
 	if (a==1)
-	
-	
-	cout << BillA<<"/"<<"month" << endl;
-	
+	   cout << BillA<<"/"<<"month" << endl;
 	else if (a==2)
-	
-	cout << BillB<<"/"<<"month" << endl;
-	
+	        cout << BillB<<"/"<<"month" << endl;
 	else if (a==3)
-	
-	cout << "1995/month, no additional fees for extra hours" << endl;
-	
-	else
-	
-	cout << "Invalid" << endl;
-	
+	        cout << "1995/month, no additional fees for extra hours" << endl;
+	     else
+	        cout << "Invalid" << endl;
 	return 0;
 	}
 }
